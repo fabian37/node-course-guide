@@ -1,0 +1,26 @@
+{
+  "name": "node-curso",
+  "version": "1.0.0",
+  "description": "Node es un entorno de ejecución de JavaScript construido con el motor de JavaScript V8 de Chrome. Node usa un modelo de operaciones E/S sin bloqueo y orientado a eventos, que lo hace liviano y eficiente. El ecosistema de paquetes de Node, npm, es el ecosistema mas grande de librerías de código abierto en el mundo.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "os": "node ./ejercicios/1.os.mjs",
+    "saludar": "node ./ejercicios/2.process.js",
+    "path": "node ./ejercicios/3.path.mjs",
+    "fs": "node ./ejercicios/4.fs.js"
+  },
+  "author": "Fabian Gomez",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.3.0",
+    "dotenv": "16.3.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
