@@ -11,4 +11,3 @@ npm es el sistema de gestión de paquetes por defecto para Node.js, un entorno d
 En el navegador, el objeto global es `window`, pero en node.js el objeto global es `global`.
 
 Página oficial de node.js: https://nodejs.org/es/
-

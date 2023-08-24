@@ -1,0 +1,15 @@
+### Obtener la página web
+GET http://localhost:3000/ HTTP/1.1
+
+### Obtener a Rick
+GET http://localhost:3000/personajes/rick HTTP/1.1
+
+### Crear un personaje
+POST http://localhost:3000/personajes HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Morty Smith",
+  "status": "Alive",
+  "species": "Human"
+}
