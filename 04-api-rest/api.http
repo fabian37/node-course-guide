@@ -1,0 +1,25 @@
+### Obtener todos los usuarios
+GET http://localhost:3001/users
+
+### Obtener un usuario por id
+GET http://localhost:3001/users/:id
+
+### Crear un usuario
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "email": "juan@gmail.com"
+}
+
+### Actualizar un usuario
+PATCH http://localhost:3001/users/:id
+Content-Type: application/json
+
+{
+    "name": "Pedro"
+}
+
+### Eliminar un usuario
+DELETE http://localhost:3001/users/:id
